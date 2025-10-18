@@ -1,3 +1,4 @@
+import AuthNavigation from '../AuthNavigation/AuthNavigation'
 import TagsMenu from '../TagsMenu/TagsMenu'
 import css from './Header.module.css'
 import Link from 'next/link'
@@ -18,6 +19,9 @@ export default async function Header() {
             <li>
               <TagsMenu ></TagsMenu>
             </li>
+
+            <AuthNavigation></AuthNavigation>
+
           </ul>
         </nav>
       </header>

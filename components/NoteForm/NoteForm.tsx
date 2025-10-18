@@ -1,7 +1,7 @@
 'use client';
 
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { createNote, type CreateNoteProps } from '@/lib/api';
+import { createNote, type CreateNoteProps } from '@/lib/api/clientApi';
 import { NoteTag } from '@/types/note';
 import css from './NoteForm.module.css';
 import * as Yup from "yup";
